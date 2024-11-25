@@ -29,3 +29,15 @@ E os seguintes comportamentos:
 - depositar(valor: Double): adiciona valor ao saldo
 - sacar(valor: Double): subtrai valor do saldo
 - consultarSaldo(): imprime o saldo atual
+
+
+### [003](exercícios/003.kt)
+Crie uma classe Livro com as seguintes propriedades:
+
+- titulo: String
+- autor: String
+- anoPublicacao: Int
+
+E os seguintes comportamentos:
+
+- resumo(): imprime um resumo do livro (titulo, autor e ano de publicação)
