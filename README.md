@@ -68,3 +68,21 @@ E os seguintes comportamentos:
 
 - apresentarNota(): imprime a nota do aluno
 - atualizarNota(novaNota: Double): atualiza a nota do aluno
+
+
+### [006](exercícios/006.kt)
+Crie uma classe Pessoa com uma propriedade chamada nome do tipo String.
+
+E o seguinte comportamento:
+
+- dirigir(carro: Carro): método que recebe um objeto do tipo Carro como parâmetro. O método deve exibir uma mensagem
+  indicando que a pessoa está dirigindo o carro e chamar o método da classe Carro para exibir as informações do veículo.
+
+Agora, crie uma segunda classe chamada Carro com as seguintes propriedades:
+
+- modelo: uma variável do tipo String que representa o modelo do carro.
+- ano: uma variável do tipo Int que representa o ano de fabricação do carro.
+
+E o seguinte comportamento:
+
+- exibirInformacoes(): método que exibe o modelo e o ano de fabricação do carro.
