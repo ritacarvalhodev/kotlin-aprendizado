@@ -86,3 +86,29 @@ Agora, crie uma segunda classe chamada Carro com as seguintes propriedades:
 E o seguinte comportamento:
 
 - exibirInformacoes(): método que exibe o modelo e o ano de fabricação do carro.
+
+
+### [007](exercícios/007.kt)
+Crie uma classe chamada Carro que tenha os seguintes atributos:
+
+- modelo (do tipo String)
+- ano (do tipo Int)
+- cor (do tipo String)
+
+Implemente dois construtores para a classe Carro:
+
+- Um construtor que recebe apenas o modelo do carro.
+- Um construtor que recebe o modelo, o ano e a cor do carro.
+
+
+### [008](exercícios/008.kt)
+Crie uma classe chamada Pessoa que tenha os seguintes atributos:
+
+- nome (do tipo String)
+- idade (do tipo Int)
+- endereco (do tipo String)
+
+Implemente dois construtores para a classe Pessoa:
+
+- Um construtor que recebe apenas o nome e a idade da pessoa.
+- Um construtor que recebe o nome, a idade e o endereço.
