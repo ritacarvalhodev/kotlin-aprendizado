@@ -112,3 +112,20 @@ Implemente dois construtores para a classe Pessoa:
 
 - Um construtor que recebe apenas o nome e a idade da pessoa.
 - Um construtor que recebe o nome, a idade e o endereço.
+
+
+### [009](exercícios/009.kt)
+Crie uma classe chamada Carro que contenha os seguintes atributos:
+
+- num (um número inteiro representando o número do carro)
+- categoria (um caractere representando a categoria do carro: 'A' ou 'B').
+
+Use sobrecarga de construtores para permitir criar objetos Carro das seguintes maneiras:
+
+- Fornecendo o número do carro e a categoria como parâmetros diretamente.
+- Fornecendo apenas o número do carro e assumindo a categoria padrão 'A'.
+- Fornecendo apenas um valor booleano, onde true representa a categoria 'A' e false representa a categoria 'B'. O 
+  número do carro será definido como 9999 por padrão.
+- Sem fornecer nenhum parâmetro. Neste caso, o número será 0 e a categoria será 'A' por padrão.
+
+No método main(), crie diferentes instâncias da classe Carro usando todas as opções de construtores, e imprima as informações de cada carro na tela.
