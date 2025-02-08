@@ -129,3 +129,15 @@ Use sobrecarga de construtores para permitir criar objetos Carro das seguintes m
 - Sem fornecer nenhum parâmetro. Neste caso, o número será 0 e a categoria será 'A' por padrão.
 
 No método main(), crie diferentes instâncias da classe Carro usando todas as opções de construtores, e imprima as informações de cada carro na tela.
+
+
+### [010](exercícios/010.kt)
+Crie uma classe chamada User, que representa um usuário em um sistema. Sempre que um novo usuário for criado, um contador deve ser atualizado para registrar quantos usuários foram instanciados.
+
+Requisitos:
+
+- A classe Usuario deve ter um atributo nome.
+- Deve haver um companion object dentro da classe que contenha um método que imprime o total de 
+  usuários criados.
+- Sempre que um novo objeto Usuario for criado, o contador deve ser incrementado.
+- No main(), crie pelo menos três usuários.
