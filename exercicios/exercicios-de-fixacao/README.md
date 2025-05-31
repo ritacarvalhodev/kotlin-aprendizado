@@ -1,9 +1,6 @@
-# Kotlin-Aprendizado
-## Descrição:
-Repositório com exercícios realizados por mim utilizando Kotlin, enquanto estudo para me tornar uma desenvolvedora de aplicativos para Android. Meus códigos são de "baixa qualidade", sem as famosas boas práticas, pois o meu objetivo inicialmente é apenas treinar a lógica, sem muita complexidade.
-
-## Exercícios:
-### [001](exercícios/001.kt)
+## Exercícios de fixação:
+Relacionado a sintaxe da linguagem e recursos disponíveis.
+### [001](001.kt)
 Crie uma classe Pessoa com as seguintes propriedades:
 
 - nome: String
@@ -16,7 +13,7 @@ E os seguintes comportamentos:
 - mudarEndereco(novoEndereco: String): atualiza o endereco da pessoa
 
 
-### [002](exercícios/002.kt)
+### [002](002.kt)
 Crie uma classe ContaBancaria com as seguintes propriedades:
 
 - numero: Int
@@ -30,7 +27,7 @@ E os seguintes comportamentos:
 - consultarSaldo(): imprime o saldo atual
 
 
-### [003](exercícios/003.kt)
+### [003](003.kt)
 Crie uma classe Livro com as seguintes propriedades:
 
 - titulo: String
@@ -42,7 +39,7 @@ E os seguintes comportamentos:
 - resumo(): imprime um resumo do livro (titulo, autor e ano de publicação)
 
 
-### [004](exercícios/004.kt)
+### [004](004.kt)
 Crie uma classe Veiculo com as seguintes propriedades:
 
 - marca: String
@@ -57,7 +54,7 @@ E os seguintes comportamentos:
 - informacoes(): imprime informações sobre o veículo (marca, modelo, ano e velocidade)
 
 
-### [005](exercícios/005.kt)
+### [005](005.kt)
 Crie uma classe Aluno com as seguintes propriedades:
 
 - nome: String
@@ -70,7 +67,7 @@ E os seguintes comportamentos:
 - atualizarNota(novaNota: Double): atualiza a nota do aluno
 
 
-### [006](exercícios/006.kt)
+### [006](006.kt)
 Crie uma classe Pessoa com uma propriedade chamada nome do tipo String.
 
 E o seguinte comportamento:
@@ -88,7 +85,7 @@ E o seguinte comportamento:
 - exibirInformacoes(): método que exibe o modelo e o ano de fabricação do carro.
 
 
-### [007](exercícios/007.kt)
+### [007](007.kt)
 Crie uma classe chamada Carro que tenha os seguintes atributos:
 
 - modelo (do tipo String)
@@ -101,7 +98,7 @@ Implemente dois construtores para a classe Carro:
 - Um construtor que recebe o modelo, o ano e a cor do carro.
 
 
-### [008](exercícios/008.kt)
+### [008](008.kt)
 Crie uma classe chamada Pessoa que tenha os seguintes atributos:
 
 - nome (do tipo String)
@@ -114,7 +111,7 @@ Implemente dois construtores para a classe Pessoa:
 - Um construtor que recebe o nome, a idade e o endereço.
 
 
-### [009](exercícios/009.kt)
+### [009](009.kt)
 Crie uma classe chamada Carro que contenha os seguintes atributos:
 
 - num (um número inteiro representando o número do carro)
@@ -124,20 +121,20 @@ Use sobrecarga de construtores para permitir criar objetos Carro das seguintes m
 
 - Fornecendo o número do carro e a categoria como parâmetros diretamente.
 - Fornecendo apenas o número do carro e assumindo a categoria padrão 'A'.
-- Fornecendo apenas um valor booleano, onde true representa a categoria 'A' e false representa a categoria 'B'. O 
+- Fornecendo apenas um valor booleano, onde true representa a categoria 'A' e false representa a categoria 'B'. O
   número do carro será definido como 9999 por padrão.
 - Sem fornecer nenhum parâmetro. Neste caso, o número será 0 e a categoria será 'A' por padrão.
 
 No método main(), crie diferentes instâncias da classe Carro usando todas as opções de construtores, e imprima as informações de cada carro na tela.
 
 
-### [010](exercícios/010.kt)
+### [010](010.kt)
 Crie uma classe chamada User, que representa um usuário em um sistema. Sempre que um novo usuário for criado, um contador deve ser atualizado para registrar quantos usuários foram instanciados.
 
 Requisitos:
 
 - A classe Usuario deve ter um atributo nome.
-- Deve haver um companion object dentro da classe que contenha um método que imprime o total de 
+- Deve haver um companion object dentro da classe que contenha um método que imprime o total de
   usuários criados.
 - Sempre que um novo objeto Usuario for criado, o contador deve ser incrementado.
 - No main(), crie pelo menos três usuários.
